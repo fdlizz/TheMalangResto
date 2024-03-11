@@ -21,7 +21,7 @@ include "data.php";
                 <h1 class="text-center">Login</h1>
                 <div class="User mt-4 login-label">
                     <div class="form-floating mb-3 ">
-                        <input type="email" class="form-control login-input" id="floatingInput" placeholder="">
+                        <input type=" email" class="form-control login-input" id="floatingInput" placeholder="">
                         <label class="name" for="floatingInput">Username or Email</label>
                     </div>
                     <div class="form-floating">

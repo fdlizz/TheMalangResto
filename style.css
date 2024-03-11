@@ -20,13 +20,13 @@
 }
 
 .Title {
-  font-size: 35px;
-  font-family: junge;
+  font-size: 55px;
+  font-family: Tangerine;
 }
 
 .container-form {
   width: 40%;
-  margin-top: 25px;
+  margin-top: -15px;
   padding-left: 110px;
 }
 
@@ -55,8 +55,8 @@
 }
 
 .login-input {
-  opacity: 40%;
-  filter: drop-shadow(0 0 0.75rem black);
+  background-color: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.626));
 }
 
 .login-label {
@@ -110,7 +110,7 @@
   border: 0px;
   border-color: transparent;
   background-color: transparent;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 /* Register page */
@@ -161,4 +161,19 @@
   background: transparent;
   font-size: 17px;
   font-family: julius;
+}
+
+.BT-form:hover {
+  background-color: rgba(247, 210, 98, 0.456);
+  transition: ease-in;
+  transition-duration: 0.5s;
+}
+
+.register-input {
+  background-color: rgb(0, 0, 0);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.626));
+}
+
+.register-form h1 {
+  padding-left: 100px;
 }
