@@ -147,4 +147,18 @@
 
 .register-form {
   margin: 10px 0 10px 0;
+  font-family: junge;
+}
+
+.register-form h1 {
+  font-size: 50px;
+}
+
+.BT-form {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border-radius: 15px;
+  background: transparent;
+  font-size: 17px;
+  font-family: julius;
 }

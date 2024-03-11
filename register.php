@@ -37,6 +37,9 @@ include "data.php"
                 </div>
             </div>
 
-            < </div>
+            <div class="w-100 mt-5">
+                <button class="BT-form">Register</button>
+            </div>
         </div>
+    </div>
 </body>
