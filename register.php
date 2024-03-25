@@ -7,15 +7,15 @@ include "data.php"
     <div class="w-100">
         <div>
             <img class="img1" src="photo/TMR1.jpg" alt="ini gambar">
-            <img class="img2" src="photo/loginfade.png" alt="ini gambar">
+            <img class="img2" src="photo/login.png" alt="ini gambar">
         </div>
-
+        <!-- Title -->
         <div class="w-100 p-4">
             <div class="w-25">
                 <h2 class="w-75 text-center Title">The Malang Resto</h2>
             </div>
         </div>
-
+        <!-- Input -->
         <!-- login page -->
         <div class="container-form">
             <!-- ******* -->
@@ -36,7 +36,7 @@ include "data.php"
                     </div>
                 </div>
             </div>
-
+            <!-- Button -->
             <div class="w-100 mt-5">
                 <button class="BT-form">Register</button>
             </div>
