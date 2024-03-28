@@ -184,11 +184,9 @@
 .home {
   position: relative;
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-  top: 0;
-  left: 0;
+  background-image: url(photo/TMR1.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .Menu1 {

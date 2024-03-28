@@ -27,24 +27,23 @@ include "data.php";
                     <div class="form-floating">
                         <input tpe="password" class="form-control login-input" id="floatingPassword" placeholder="">
                         <label class="name" for="floatingPassword">Password</label>
-                    </div>
-                    <!-- Button -->
-                    <div class="FG">
-                        <button class=bt>Forgot Password?</button>
+                        <!-- Button -->
+                        <div class="FG">
+                            <button class=bt>Forgot Password?</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-100 mt-5">
-                <button class="button1">Login</button>
-                <div class="flex container-divider">
-                    <div class="divider"></div>
-                    <p class="px-3 or">Or</p>
-                    <div class="divider"></div>
+                <div class="w-100 mt-5">
+                    <button class="button1">Login</button>
+                    <div class="flex container-divider">
+                        <div class="divider"></div>
+                        <p class="px-3 or">Or</p>
+                        <div class="divider"></div>
+                    </div>
+                    <button class="button1">Register</button>
                 </div>
-                <button class="button1">Register</button>
             </div>
         </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
