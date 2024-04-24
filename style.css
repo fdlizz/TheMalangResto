@@ -187,7 +187,41 @@
   background-image: url(photo/TMR1.jpg);
   background-repeat: no-repeat;
   height: 100vh;
+  z-index: 0;
 }
 
+.fade {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+}
+
+/* .slide1 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+} */
+
 .Menu1 {
+}
+
+.makanan {
 }
