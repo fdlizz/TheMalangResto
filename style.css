@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* navbar */
+.Nav {
+  position: fixed;
+}
+
 /* Login page */
 .bg {
   position: absolute;

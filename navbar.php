@@ -4,7 +4,7 @@ include "data.php"
 ?>
 
 <div>
-    <div>
+    <div class="Nav">
         <a>Home</a>
         <a>Menu</a>
         <a>Payment</a>

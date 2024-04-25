@@ -6,6 +6,9 @@ include "data.php";
 <body>
     <div>
         <div class="home">
+            <?php
+            include "navbar.php"
+            ?>
             <div>
                 <img class="opacity-100 fade" src="photo/fade.png" alt="">
             </div>
