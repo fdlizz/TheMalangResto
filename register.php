@@ -1,22 +1,19 @@
 <?php
 include "connect.php";
+
+session_start();
+
+if (isset($_POST['submit'])) {
+    // Bersihkan input dari form
+    $nama = $_POST['nama'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // Query untuk menyimpan data ke database
+    $query = "INSERT INTO user (nama_user, email_user, password_user) VALUES ('$nama', '$email', '$password')";
+    $register = mysqli_query($koneksi, $query);
+}
 ?>
-
-<!DOCTYPE html>
-
-<head>
-    <!--text atas-->
-    <title>The Malang Resto</title>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <!-- icon -->
-    <link rel="shortcut icon" href="photo/logo.jpeg">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-</head>
 
 <!doctype html>
 <html lang="en">
@@ -47,30 +44,25 @@ include "connect.php";
         </div>
         <!-- Input -->
         <!-- login page -->
-        <div class="container-form">
-            <!-- ******* -->
-            <div class="register-form">
-                <h1>Register</h1>
-                <div class="User mt-4 register-label">
-                    <div class="form-floating mb-3 ">
-                        <input type="email" class="form-control register-input" id="floatingInput" placeholder="name@example.com">
-                        <label class="reg" for="floatingInput">Username</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input tpe="password" class="form-control register-input" id="floatingPassword" placeholder="">
-                        <label class="reg" for="floatingPassword">Email</label>
-                    </div>
-                    <div class="form-floating">
-                        <input tpe="password" class="form-control register-input" id="floatingPassword" placeholder="">
-                        <label class="reg" for="floatingPassword">Password</label>
-                    </div>
-                </div>
-            </div>
-            <!-- Button -->
-            <div class="w-100 mt-5">
-                <button class="BT-form">Register</button>
+        <div class="px-5">
+            <div class="px-5">
+                <h1 class="register-form px-5 m-0 fs-1 fst-italic">Registrasi</h1>
             </div>
         </div>
+        <div>
+            <form method="post" action="">
+                <label>Nama:</label><br>
+                <input type="text" name="nama"><br><br>
+                <label>Email:</label><br>
+                <input type="email" name="email"><br><br>
+                <label>Password:</label><br>
+                <input type="password" name="password"><br><br>
+        </div>
+
+        <div class="w-100 mt-5">
+            <input type="submit" value="Register" name="submit">
+        </div>
+        </form>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

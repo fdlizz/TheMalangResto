@@ -32,92 +32,81 @@
   font-family: Tangerine;
 }
 
-.container-form {
-  width: 40%;
-  margin-top: -15px;
-  padding-left: 110px;
-}
-
-.login-form {
+/* .login-form {
   font-family: junge;
   width: 90%;
-}
+} */
 
-.name {
+/* .name {
   color: grey;
   font-style: italic;
   font-size: 18px;
   font-family: judson;
-}
+} */
 
-.FG {
+/* .FG {
   position: fixed;
   opacity: 70%;
   font-size: 14px;
   font-family: judson;
   font-style: italic;
-}
+} */
 
-.FG:hover {
+/* .FG:hover {
   opacity: 100%;
-}
+} */
 
-.login-input {
-  background-color: rgb(0, 0, 0);
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.626));
-}
-
-.login-label {
+/* .login-label {
   width: 90%;
-}
+} */
 
-.login-form p {
+/* .login-form p {
   margin: 10px 0 10px 0;
-}
+} */
 
-.login-form h1 {
+/* .login-form h1 {
   font-size: 50px;
-}
+} */
 
-.button1 {
+/* .button1 {
   width: 100%;
   padding: 10px 0 10px 0;
   border-radius: 15px;
   background: transparent;
   font-size: 17px;
   font-family: julius;
-}
+} */
 
-.button1:hover {
+/* .button1:hover {
   background-color: rgba(247, 210, 98, 0.456);
-}
+} */
 
-.container-divider {
+/* .container-divider {
   display: flex;
   height: 20px;
   justify-content: center;
   align-items: center;
   margin: 10px 0 10px 0;
-}
+} */
 
-.or {
+/* .or {
   height: 12px;
   font-family: judson;
   font-style: italic;
-}
+} */
 
-.divider {
+/* .divider {
   width: 100%;
   height: 1.5px;
   background: #000;
-}
+} */
 
-.bt {
+/* .bt {
   border: 0px;
   border-color: transparent;
   background-color: transparent;
   margin-top: 7px;
-}
+} */
 
 /* Register page */
 .img1 {
@@ -140,47 +129,38 @@
   left: 0;
 }
 
-.reg {
+/* .reg {
   color: grey;
   font-style: italic;
   font-size: 18px;
   font-family: judson;
-}
+} */
 
-.register-label {
+/* .register-label {
   width: 90%;
-}
+} */
 
 .register-form {
-  margin: 10px 0 10px 0;
   font-family: junge;
 }
 
-.register-form h1 {
-  font-size: 50px;
-}
-
-.BT-form {
+/* .BT-form {
   width: 100%;
   padding: 10px 0 10px 0;
   border-radius: 15px;
   background: transparent;
   font-size: 17px;
   font-family: julius;
-}
+} */
 
-.BT-form:hover {
+/* .BT-form:hover {
   background-color: rgba(247, 210, 98, 0.456);
-}
+} */
 
-.register-input {
+/* .register-input {
   background-color: rgb(0, 0, 0);
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.626));
-}
-
-.register-form h1 {
-  padding-left: 100px;
-}
+} */
 
 /* Home Page */
 .home {
